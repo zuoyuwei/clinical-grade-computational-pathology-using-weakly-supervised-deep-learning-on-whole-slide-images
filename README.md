@@ -5,6 +5,8 @@
 
 ****
 
+>**该系统在训练过程中使用来自常规病理报告的数据,并未经过事先处理，也不需要病理专家对切片手工标注，弱监督学习**
+
 > **个人新增部分**
 1. 数据集下载。自己申请的，可直接使用，`50G` 左右。下载[地址](https://share.weiyun.com/5elzljd)，密码：`uhsp76`
 2. 数据集准备。官方接口需要指定格式，参考 `code/README.md`。这里我自己写了一个脚本，见 `code/dataPrepare_for_CNN.py` 和 `code/dataPrepare_for_Rnn.py`，改一下相关路径就好。

@@ -50,7 +50,7 @@ def main():
 		tries=0
 		while not success and tries < 3:
 			try:
-				blobservice.get_blob_to_path(container,f, f)
+				blobservice.get_blob_to_path(container, f, f)
 				success = 1
 			except:
 				print('failed to download {} on try {} of 3'.format(f, tries))
